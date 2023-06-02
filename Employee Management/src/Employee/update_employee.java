@@ -139,7 +139,6 @@ class update_employee  implements ActionListener{
         }catch(Exception ex){
             System.out.println(ex);
         }
-        System.out.println("fuck you");
 
         f.setVisible(true);
         f.setSize(900,500);

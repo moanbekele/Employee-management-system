@@ -13,7 +13,7 @@ public class conn {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); // Load mysql jdbc driver
-			c = DriverManager.getConnection("jdbc:mysql://localhost:3306/"name of your database"?useSSL=false&serverTimezone=UTC","root","");
+			c = DriverManager.getConnection("jdbc:mysql://localhost:3306/employeemanagement?useSSL=false&serverTimezone=UTC","root","Ilovepussy69");
 			st = c.createStatement(); // helpful to execute query
 		} catch(Exception e) {
 			e.printStackTrace();
